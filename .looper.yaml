@@ -1,0 +1,63 @@
+ Last login: Thu Jan  4 15:28:33 on ttys001
+m-c02tm0ueg8wn:testforlooper mak001i$ ls -all
+total 24
+drwxr-xr-x@  6 mak001i  HOMEOFFICE\Domain Users  204 Jan  4 15:11 .
+drwxr-xr-x@  4 mak001i  HOMEOFFICE\Domain Users  136 Jan  4 15:30 ..
+drwxr-xr-x@ 12 mak001i  HOMEOFFICE\Domain Users  408 Jan  4 15:15 .git
+-rw-r--r--@  1 mak001i  HOMEOFFICE\Domain Users  126 Jan  4 15:09 .looper.yml
+-rw-r--r--@  1 mak001i  HOMEOFFICE\Domain Users   41 Jan  3 16:45 README.md
+-rw-r--r--@  1 mak001i  HOMEOFFICE\Domain Users   85 Jan  4 15:11 test.html
+m-c02tm0ueg8wn:testforlooper mak001i$ vim .looper.yml 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tools:
+  jdk: 8
+  maven: 3.5.0
+
+flows:
+  default:
+   - shell: echo "hello world"
+   - shell: java -version
+   - shell: mvn -v
